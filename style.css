@@ -1,57 +1,134 @@
 body{
+    width: 100vw;
     margin: 0;
     padding: 0;
     }
    .navbar{
-       background-color: #f5f5f5;
-       color: #333;
+       background-color: #060606;
+       color: #f7f3f3;
        padding: 20px;
        display: flex;
        justify-content: space-between;
+       align-items: center;
    }
    .navbar a{
-       color: #333;
+       color: #ebe9e9;
        text-decoration: none;
        margin-right: 10px;
        font-size: 18px;
        transition: color 0.3s ease;  
+       align-items: center;
    }
    .navbar a hover{
        color: #ffcc00;
    }
-   .container{
-       display: flex;
-       justify-content: space-between;
-       flex-wrap: wrap;
-       margin: 20px;
-       }
-       .square{
-           width: 200px;
-           height: 200px;
-           margin-bottom: 20px;
-           border-radius: 10px;
-       }
-       #square1{
-           background-color: #e4f1ed;
-       }
-       #square2{
-           background-color: #f1ebeb;
-       }
-       #square3{
-           background-color: #eee4ed;
-       }
-       #square4{
-           background-color: #c2c9cb;
-       }
-       #rectangle{
-           width: 400px;
-           height: 460px;
-           background-color: #cec5c7;
-           border-radius: 10px;
-       }
-       .footer{
-        background-color: #0f0e0b;
-        color: #f5f1f1;
-        text-align: center;
-        padding: 50px;
-       }
+   .div1 img{
+    width: 100%;
+   }
+   .div1 h2{
+    position: absolute;
+    text-align: right;
+    top: 20%;
+    font-size: 20px;
+    color: azure;
+   }
+   .div1 button{
+    position: absolute;
+    text-transform: uppercase;
+    mix-blend-mode: multiply;
+    top: 22%;
+    right: 10%;
+    font-size: 20px;
+    
+   }
+   .div1 a{
+    text-decoration: none;
+    color: black;
+   }
+
+   .elecdisplays{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    background-color: #090808;
+   }
+   .display{
+    margin: 5px;
+    border: 1px solid black #ccc;
+    float: left;
+    
+   }
+   .display img{
+    width: 100%;
+    height: auto;
+   }
+   .display a{
+    text-decoration: none;
+    color: black;
+    color: #ccc;
+    font-weight: bold;
+    font-size: 20px;
+    align-items: baseline;
+   }
+   .maincointainer{
+    background-image: url(images/wave-haikei.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+   .contacts p{
+    font-size: larger;
+   }
+   .contacts ul{
+    list-style-type: none;
+   }
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.cointainer form{
+    top: 30%;
+}
+form label{
+    color: white;
+    font-size: 30px;
+    
+}
+footer {
+    background-color: #060606;
+    color: #f1eaea;
+    padding: 20px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-content p {
+    margin: 0;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-links li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .footer-links li:last-child {
+    margin-right: 0;
+  }
+  
+  .footer-links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
